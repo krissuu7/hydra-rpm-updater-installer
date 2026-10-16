@@ -4,7 +4,7 @@ Unit=hydra-rpm-updater.service
 
 [Install]
 WantedBy=timers.target
-UNIT
+HYDRA_TIMER
 
   systemctl daemon-reload
   systemctl enable --now hydra-rpm-updater.timer
